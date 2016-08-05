@@ -1,0 +1,18 @@
+NAME="virt-viewer"
+VERSION=3.0
+RELEASE=1
+CATEGORY="System"
+SUMMARY="Interact with displays of virtualized guests"
+DESCRIPTION="The virt-viewer application is a lightweight interface for
+interacting with the graphical display of virtualized guest OS. It can
+display VNC or SPICE, and uses libvirt to lookup the graphical connection
+details."
+HOMEPAGE="http://virt-manager.org/"
+SRC_URI="http://virt-manager.org/download/sources/${NAME}/${NAME}-${VERSION}.tar.gz"
+
+CYGCONF_ARGS="
+	--with-gtk=3.0
+	--with-spice-gtk
+	--with-buildid=${RELEASE}
+	--disable-update-mimedb
+"
