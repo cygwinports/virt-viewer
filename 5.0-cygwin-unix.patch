@@ -1,0 +1,11 @@
+--- origsrc/virt-viewer-5.0/configure.ac	2016-11-02 10:59:06.000000000 -0500
++++ src/virt-viewer-5.0/configure.ac	2017-06-26 20:39:21.893225000 -0500
+@@ -40,7 +40,7 @@ AC_SUBST([GOVIRT_REQUIRED])
+ 
+ AC_MSG_CHECKING([for native Win32])
+ case "$host_os" in
+-     *mingw*|*cygwin*)
++     *mingw*)
+         os_win32=yes
+         case "$host" in
+             amd64*|x86_64*)

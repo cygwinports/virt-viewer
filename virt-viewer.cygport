@@ -1,5 +1,5 @@
 NAME="virt-viewer"
-VERSION=3.0
+VERSION=5.0
 RELEASE=1
 CATEGORY="System"
 SUMMARY="Interact with displays of virtualized guests"
@@ -9,9 +9,9 @@ display VNC or SPICE, and uses libvirt to lookup the graphical connection
 details."
 HOMEPAGE="http://virt-manager.org/"
 SRC_URI="http://virt-manager.org/download/sources/${NAME}/${NAME}-${VERSION}.tar.gz"
+PATCH_URI="5.0-cygwin-unix.patch"
 
 CYGCONF_ARGS="
-	--with-gtk=3.0
 	--with-spice-gtk
 	--with-buildid=${RELEASE}
 	--disable-update-mimedb
