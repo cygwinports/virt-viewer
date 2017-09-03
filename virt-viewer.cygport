@@ -1,5 +1,5 @@
 NAME="virt-viewer"
-VERSION=5.0
+VERSION=6.0
 RELEASE=1
 CATEGORY="System"
 SUMMARY="Interact with displays of virtualized guests"
