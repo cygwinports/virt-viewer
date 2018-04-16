@@ -1,6 +1,6 @@
 NAME="virt-viewer"
 VERSION=6.0
-RELEASE=1
+RELEASE=2
 CATEGORY="System"
 SUMMARY="Interact with displays of virtualized guests"
 DESCRIPTION="The virt-viewer application is a lightweight interface for
